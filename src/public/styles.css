@@ -1,0 +1,142 @@
+/* ===== BAS ===== */
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f0f2f5;
+  color: #222;
+}
+
+.header {
+  background: white;
+  padding: 2rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.subtitle {
+  margin: 0.3rem 0 0;
+  color: #666;
+}
+
+/* ===== KONTROLLER ===== */
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.controls input {
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  min-width: 260px;
+}
+
+.controls button {
+  padding: 0.6rem 1.4rem;
+  border: none;
+  border-radius: 8px;
+  background: #0078ff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.controls button:hover {
+  background: #005fcc;
+}
+
+/* Toggle-knapp */
+
+#toggle-btn {
+  padding: 0.6rem 1.4rem;
+  border: none;
+  border-radius: 8px;
+  background: #00b35a;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#toggle-btn.off {
+  background: #ff4d4d;
+}
+
+.status {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+/* ===== JOBBKORT ===== */
+
+.jobs-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.2rem;
+}
+
+.job-card {
+  background: white;
+  padding: 1rem 1.2rem;
+  border-radius: 12px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  border-left: 4px solid #0078ff;
+}
+
+.job-card h2 {
+  margin: 0 0 0.4rem;
+  font-size: 1.2rem;
+}
+
+.job-card p {
+  margin: 0.2rem 0;
+  color: #444;
+}
+
+.job-link {
+  display: inline-block;
+  margin-top: 0.8rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  background: #0078ff;
+  color: white;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.job-link:hover {
+  background: #005fcc;
+}
+
+/* ===== FOOTER ===== */
+
+.footer {
+  text-align: center;
+  padding: 2rem;
+  color: #777;
+}
+.mark-btn {
+  margin-top: 0.6rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  background: #00b35a;
+  color: white;
+  transition: 0.2s;
+}
+
+.mark-btn:hover {
+  filter: brightness(0.9);
+}

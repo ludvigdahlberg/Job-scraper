@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <title>Jobb i Skåne – Job Scraper</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>Jobb i Skåne</h1>
+    <p class="subtitle">Hämtade från Platsbanken via din egen scraper 🚀</p>
+  </header>
+
+  <main class="main">
+    <section class="controls">
+      <input id="query" type="text" placeholder="systemutvecklare" />
+      <button id="search-btn">Sök jobb</button>
+      <button id="toggle-btn" class="off">Visa sökta</button>
+    </section>
+
+    <section id="status" class="status">
+      Klicka på "Sök jobb" för att hämta annonser.
+    </section>
+
+    <section id="jobs" class="jobs-grid">
+      <!-- Jobbkort fylls i av app.js -->
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>Byggt med Node, TypeScript & Express 👨‍💻</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

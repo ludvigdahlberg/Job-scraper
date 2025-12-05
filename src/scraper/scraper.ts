@@ -9,7 +9,7 @@ export async function scrapeJobs(searchText: string) {
         }
     ],
     fromDate: null,
-    maxRecords: 25,
+    maxRecords: 100,
     order: "relevance",
     source: "pb",
     startIndex: 0,
